@@ -9,7 +9,10 @@ namespace FuhrparkverwaltungTests
     class Auto
     {
         private int kilometerstand;
+        private double fuellstandInLiter;
+        private double verbrauchInLiter;
 
+        //Aufgabe 1
         public Auto (int kilometerstand)
         {
             this.kilometerstand = kilometerstand;
@@ -33,7 +36,7 @@ namespace FuhrparkverwaltungTests
             
         }
 
-        
+   
 
     }
 }
